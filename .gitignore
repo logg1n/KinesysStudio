@@ -1,0 +1,42 @@
+# 📦 Виртуальное окружение
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 🔧 Flask и Python
+instance/
+*.db
+*.sqlite3
+*.log
+
+# 📃 Конфигурации
+config.py
+.env
+*.env
+
+# 📁 IDE и редакторы
+.vscode/
+.idea/
+*.swp
+
+# 📸 Кэш, сессии и временные файлы
+*.bak
+*.tmp
+*.log
+*.pid
+*.seed
+
+# 🖼️ Статика и медиа (необязательно)
+static/uploads/
+static/cache/
+
+# 🤖 Telegram-бот (Aiogram, если есть токен)
+bot_token.txt
+session.json
+
+# ⚙️ Миграции SQLAlchemy (если используешь Flask-Migrate)
+migrations/
