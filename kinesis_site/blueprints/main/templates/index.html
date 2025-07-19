@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Кинезис Студия</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+
+  <!-- Секции лендинга через Jinja2 -->
+  {% include '_sections/hero.html' %}
+  {% include '_sections/about.html' %}
+  {% include '_sections/services.html' %}
+  {% include '_sections/expertise.html' %}
+  {% include '_sections/team.html' %}
+  {% include '_sections/schedule.html' %}
+  {% include '_sections/pricing.html' %}
+  {% include '_sections/blog.html' %}
+  {% include '_sections/testimonials.html' %}
+  {% include '_sections/faq.html' %}
+  {% include '_sections/contacts.html' %}
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
